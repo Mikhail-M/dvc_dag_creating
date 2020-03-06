@@ -1,0 +1,12 @@
+md5: 8835d8f71d86baee96a59f528004c4b4
+cmd: python train_model.py data/data3.csv models/model_3.csv
+wdir: ..
+deps:
+- md5: b09badd7c1138a30260df54d6d9040cb
+  path: data/data3.csv
+outs:
+- md5: 701a44c22acba4d6a081c8bd70127b66
+  path: models/model_3.csv
+  cache: true
+  metric: false
+  persist: false
